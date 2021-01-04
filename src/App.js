@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import './styles.css';
+// test commit message
 const WrapperChild = React.memo(({ value }) => {
   const count = useRef(0);
   count.current = count.current + 1;
